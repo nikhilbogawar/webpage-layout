@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #f9cd07;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product-card {
+    background-color: #eee;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #eee;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
