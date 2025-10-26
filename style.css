@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: black;
-    color: white;
+    color: rgb(238, 232, 232);
     display: flex;
     padding: 15px;
 }
